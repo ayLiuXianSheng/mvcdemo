@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baweimap/baweimap.iml" filepath="$PROJECT_DIR$/baweimap/baweimap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getuidemo/getuidemo.iml" filepath="$PROJECT_DIR$/getuidemo/getuidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logindemo/logindemo.iml" filepath="$PROJECT_DIR$/logindemo/logindemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monthpractice1/monthpractice1.iml" filepath="$PROJECT_DIR$/monthpractice1/monthpractice1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvcdemo.iml" filepath="$PROJECT_DIR$/mvcdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpdemo/mvpdemo.iml" filepath="$PROJECT_DIR$/mvpdemo/mvpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpnetworkdemo/mvpnetworkdemo.iml" filepath="$PROJECT_DIR$/mvpnetworkdemo/mvpnetworkdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvvm/mvvm.iml" filepath="$PROJECT_DIR$/mvvm/mvvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okdemo/okdemo.iml" filepath="$PROJECT_DIR$/okdemo/okdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttp_demo/okhttp_demo.iml" filepath="$PROJECT_DIR$/okhttp_demo/okhttp_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/propertyanimator/propertyanimator.iml" filepath="$PROJECT_DIR$/propertyanimator/propertyanimator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qqlogin/qqlogin.iml" filepath="$PROJECT_DIR$/qqlogin/qqlogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" filepath="$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" />
+    </modules>
+  </component>
+</project>
