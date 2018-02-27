@@ -1,6 +1,7 @@
 package com.example.monthpractice1.adapter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,22 +31,31 @@ public class LeftAdapter extends RecyclerView.Adapter<LeftAdapter.LeftViewHolder
 
     @Override
     public LeftViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.text_item, null);
+        View view = LayoutInflater.from(context).inflate(R.layout.text_item, parent,false);
 
         return new LeftViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(LeftViewHolder holder, final int position) {
+        if(po==position){
+            holder.textView.setTextColor(Color.RED);
+            holder.textView.setBackgroundColor(Color.parseColor("#eeeeee"));
+        }else {
+            holder.textView.setTextColor(Color.BLACK);
+            holder.textView.setBackgroundColor(Color.WHITE);
+        }
         holder.textView.setText(list.get(position).getName());
         holder.textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 listner.onItemClick(v,list.get(position).getCid());
+                po=position;
+                notifyDataSetChanged();
             }
         });
     }
-
+private int po=0;
     @Override
     public int getItemCount() {
         return list.size();
