@@ -43,8 +43,6 @@ public class OkhttpUtil {
             int cacheSize = 10 * 1024 * 1024;
             okHttpClient=new OkHttpClient.Builder()
                     .connectTimeout(15, TimeUnit.SECONDS)
-                    //.addInterceptor(new HttpLoggingInterceptor())
-                    //.addNetworkInterceptor(new CacheInterceptor())
                     .cache(new Cache(sdcache,cacheSize))
                     .build();
         }
